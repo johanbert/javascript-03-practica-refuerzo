@@ -4,7 +4,7 @@
 ## 2 SOBRE EL if else
 ## 3 SOBRE EL let
 ## 4 document.write
-## 5 function
+## 5 ++ function
 ## 6 el punto 2 del ejercicio
 ## 7 comparaciones o acciones dentro de un for
 ## 8 operador ternario como aplicarlo
@@ -20,17 +20,48 @@ function stringRev2 (str) {
 ```
 
 
-# Javascript Practicas 2
+# Javascript Practicas 3
 
-## Ejercicio
-1. Crear un algoritmo que almacene una lista de nombres en un arreglo y luego ordenarlos alfabéticamente. No se sabe la cantidad de datos que se ingresarán. Se ingresa una lista de nombres si se repite un nombre,  el sistema debe mostrar un mensaje indicando al usuario que no debe repetir nombres y continuar con la lista.
+## Ejercicios
 
-2. Crear un script que muestre una palabra o frase ingresada al revés y que indique cuántas 
-letras y espacios tiene. 
-ej: Ingrese una palabra o frase Hola mundo 
-Tu palabra al revés es: odnum aloh Tiene 9 letras y 1 espacio
 
-3. Realiza un script que pida una cadena de texto y la muestre poniendo el signo – entre cada carácter. Si la cadena contiene un espacio, éste debe ser reemplazado con el siguiente 
-símbolo --
-Ej: Ingrese una frase: Hola que tal 
-H-o-l-a--q-u-e--t-a-l
+1. Crear un algoritmo mediante JS que me permita saber si un año será Bisiesto o no. El usuario 
+debe ingresar el año a través de un input y mediante un mensaje en el HTML se le confirmara al 
+usuario si es o no un año bisiesto (Cualquier año).
+
+
+LA LOGICA DE LOS AÑOS BISIESTOS ES:
+Cuando el año sea múltiplo de cuatro y no sea múltiplo de cien entonces es bisiesto
+
+Un año es bisiesto si cumple los siguientes criterios:
+
+Es bisiesto si es divisible entre 4.
+Pero no es bisiesto si es divisible entre 100.
+
+
+Puede usar el módulo para encontrar el resto después de una división y luego, si el resto es igual a cero, entonces es un múltiplo.
+
+//x and y are both integers
+let remainder = 4 % 4;
+if (remainder == 0){
+//x is a multiple of y
+} else {
+//x is not a multiple of y
+}
+
+
+if (3020 % 4 == 0 && 3020 % 100 != 0) {
+    console.log('SI ES BISIESTO')
+}
+else{
+ console.log(' NO ES')
+}
+
+
+2. Crear un algoritmo que me permita saber si el numero ingresado por el usuario es PAR o IMPAR
+
+3. Crear un algoritmo que me permita saber si una palabra ingresada es Palíndromo o no
+
+PALINDROMO
+SI ES ANA = ANA
+NO ES BETO = OTEB
