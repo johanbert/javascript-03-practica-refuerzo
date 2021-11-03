@@ -11,14 +11,15 @@
  }
 
  OPERADORES DE COMPARACION:
-    <
-    >
-    <=
-    >=
-    ==
- */
+    <  MENOR QUE
+    >  MAYOR QUE
+    <= MENOR O IGUAL QUE
+    >= MAYOR O IGUAL QUE
+    == IGUAL QUE
+    != NO ES IGUAL QUE ó DIFERENTE QUE
+*/
 let temporadas = 10
-let seasons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] // su tamaño se obtiene con .length
+let seasons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] // su tamaño se obtiene con el property .length
 
 for (let numero = 0; numero <= seasons.length; numero++) {
 
